@@ -1,0 +1,59 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(200, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(55, 41, 41);
+    color: rgb(200, 182, 182);
+}
+
+main {
+    max-width: 796px;
+    margin: auto;
+}
+
+nav {
+    padding: 11px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(200, 182, 182);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+article:first-of-type {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+img {
+    margin: 8px 0;
+}
+
+#about-me {
+
+}
+
+#about-me img {
+    max-width: 200px;
+}
