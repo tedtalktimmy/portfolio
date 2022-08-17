@@ -51,9 +51,25 @@ img {
 }
 
 #about-me {
-
+    text-align: center;
+    align-items: center;
 }
 
 #about-me img {
     max-width: 200px;
+}
+
+#work img {
+    width: 100%;
+}
+
+#work div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact div {
+    display: flex;
+    justify-content: center;
 }
