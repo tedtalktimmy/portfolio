@@ -37,6 +37,12 @@ section {
     padding: 20px;
 }
 
+article {
+    width: cal(50% - 16px);
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
 article:first-of-type {
     width: 100%;
 }
