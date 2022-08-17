@@ -35,13 +35,13 @@ nav a {
 section {
     display: flex;
     flex-direction: column;
-    padding: 11px;
+    padding: 20px;
 }
 
 article {
     width: cal(50% - 16px);
     margin-bottom: 12px;
-    padding: 7px;
+    padding: 8px;
 }
 
 article:first-of-type {
@@ -54,7 +54,7 @@ h2 {
 }
 
 img {
-    margin: 7px 0;
+    margin: 8px 0;
 }
 
 #about-me {
@@ -68,6 +68,8 @@ img {
 
 #work img {
     width: 100%;
+    justify-content: center;
+    
 }
 
 #work div {
