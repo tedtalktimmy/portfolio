@@ -23,24 +23,25 @@ main {
 }
 
 nav {
-    padding: 11px;
+    padding: 12px;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(200, 182, 182);
+    margin: 4px;
 }
 
 section {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 11px;
 }
 
 article {
     width: cal(50% - 16px);
     margin-bottom: 12px;
-    padding: 8px;
+    padding: 7px;
 }
 
 article:first-of-type {
@@ -53,7 +54,7 @@ h2 {
 }
 
 img {
-    margin: 8px 0;
+    margin: 7px 0;
 }
 
 #about-me {
@@ -78,4 +79,10 @@ img {
 #contact div {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        flex-direction: column;
+    }
 }
